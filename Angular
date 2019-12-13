@@ -1,0 +1,27 @@
+What is an Angular?
+	Angular is a complete framework for web application development.
+	Angular Extends HTML attributes with directives and binds data with HTML.
+My Understanding:
+I think the important file in an angular component is app.component.js.
+App.component.js contains @component decorator.
+ 
+@component(
+	Selector: ‘app-hero-child’
+		Which means wherever angular finds the Html tag <app-hero-child><app-hero-child> it renders the view(Html Template) of HeroChildComponent class.
+	Template: “./index.html”
+		Corresponding HTML page for component class
+
+DataBinding:
+{{}} => Interpolation
+	Binds the data in Html from component
+	Ex: 
+		We have a variable declared in the class as name
+		Export class app{
+			name = “MAruth”}
+	In HTML
+		<p> {{name}}<p>
+Myunderstanding:
+	Whenever a variable is declared in component class. We can access that variable in the view using the interpolation{{}}
+	Component when the template is rendered, the {{name}} is replaced with 'Maruth'.
+
+	

@@ -25,3 +25,7 @@ Myunderstanding:
 	Component when the template is rendered, the {{name}} is replaced with 'Maruth'.
 
 	
+For @input and @output refer below link:
+	https://www.infragistics.com/community/blogs/b/infragistics/posts/understanding-output-and-eventemitter-in-angular
+
+	
